@@ -5,7 +5,7 @@ const meeteek = input => {
   var res = [];
 
   _.map(input, people =>{
-    res.push(JSON.parse('{'people.firstname : []'}'));
+
   })
 
   console.log(res)
