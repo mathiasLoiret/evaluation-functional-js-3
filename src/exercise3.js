@@ -1,7 +1,15 @@
 const _ = require("lodash");
 
 const meeteek = input => {
-  // Your future job begins here ...
+
+  var res = [];
+
+  _.map(input, people =>{
+    res.push(JSON.parse('{'people.firstname : []'}'));
+  })
+
+  console.log(res)
+  return JSON.stringify(res);
 };
 
 module.exports = {
