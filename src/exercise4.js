@@ -5,9 +5,8 @@ const countSequence = (sequence, input) => {
 
   table.reduce((acc,val) =>{
 
-    console.log(acc);
-
     if(acc !== ""){
+
       if(val === acc){
         compte += 1;
         acc = "";
@@ -15,6 +14,7 @@ const countSequence = (sequence, input) => {
       else{
         acc = val;
       }
+
     }
   }, "");
 
