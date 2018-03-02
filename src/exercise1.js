@@ -1,7 +1,13 @@
 const moment = require("moment");
 
 const sortProduct = input => {
-  // Your future job begins here ...
+
+  var res = input.filter(products => moment(products.dateAdded).year() > 2000);
+  res.reduce(() =>{
+
+  })
+  console.log(res);
+  res.sort();
 };
 
 module.exports = {

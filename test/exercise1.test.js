@@ -1,8 +1,8 @@
 const expect = require("chai").expect;
 const program = require("../src/exercise1");
 
-describe(`${program.title}`, function() {
-  it("Function sortProduct should filter product before year 2000", function() {
+describe.only(`${program.title}`, function() {
+  it.only("Function sortProduct should filter product before year 2000", function() {
     const input = [
       {
         name: "tomato",
